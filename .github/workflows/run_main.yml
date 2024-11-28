@@ -24,7 +24,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Python script
-        run: python hello_world.py
+        run: python main.py
 
       - name: Pull, Commit, and Push Changes
         run: |
